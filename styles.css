@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+.cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  background-color: rgb(234, 188, 188);
+  width: 150px;
+  text-align: center;
+  border-left: 15px solid rgb(218, 157, 157);
+  border-radius: 15px;
+  margin: 20px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.cardHolder p {
+  padding: 5px;
+}
