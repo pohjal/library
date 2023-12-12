@@ -8,15 +8,40 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Library</h1>
-    <button class="addBook" id="addBook">Add Book</button>
-    <div class="cardHolder" id="cardHolder">
-      <div class="card">
-        <p class="name">Nimi</p>
-        <p class="pituus">300</p>
-        <button class="luettu">Not read</button>
-        <p class="author">JK Rowling</p>
-        <button class="deleteBook" id="deleteBook">Delete Book</button>
+    <header>
+      <h1>Library</h1>
+    </header>
+    <div class="flex-container">
+      <div class="cardHolder" id="cardHolder"></div>
+      <div class="bookForm" , id="bookForm">
+        <form action="" id="bookForm">
+          <div class="form-section">
+            <label for="bookName">Name</label>
+            <input type="text" id="bookName" name="bookName" required />
+          </div>
+
+          <div class="form-section">
+            <label for="bookLength">Length</label>
+            <input type="text" id="bookLength" name="bookLength" />
+          </div>
+
+          <div class="form-section-radio">
+            <p>Have you read it?</p>
+            <input type="radio" id="yes" name="read" value="yes" />
+            <label for="yes">Yes</label><br />
+            <input type="radio" id="no" name="read" value="no" />
+            <label for="no">No</label><br />
+          </div>
+
+          <div class="form-section">
+            <label for="bookAuthor">Author</label>
+            <input type="text" id="bookAuthor" name="bookAuthor" />
+          </div>
+
+          <div class="add-section">
+            <button type="submit" id="addBook">Add Book</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="scripts.js"></script>

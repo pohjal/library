@@ -4,6 +4,7 @@ body {
 }
 .cardHolder {
   display: flex;
+  flex: 2;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -20,6 +21,53 @@ h1 {
   text-align: center;
 }
 
-.cardHolder p {
-  padding: 5px;
+button {
+  border-radius: 20px;
+  border: 0;
+  margin-bottom: 10px;
+}
+.button-holder {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+.bookForm {
+  display: flex;
+  flex: 1;
+  color: white;
+  justify-content: center;
+  max-height: 300px;
+}
+
+form {
+  background-color: rgb(36, 30, 30);
+  border-radius: 20px;
+}
+.form-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.form-section-radio {
+  padding-left: 20px;
+}
+.add-section {
+  text-align: center;
+}
+.add-section button {
+  height: 30px;
+  width: 100px;
+  border: 0;
+  color: white;
+  background-color: black;
+}
+
+.card button {
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 30px;
 }
